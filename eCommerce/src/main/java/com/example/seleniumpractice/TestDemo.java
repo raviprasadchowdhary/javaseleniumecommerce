@@ -10,8 +10,7 @@ public class TestDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
 		
-		
-
+		driver.quit();
 	}
 
 }
